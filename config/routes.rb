@@ -55,7 +55,7 @@ Rails.application.routes.draw do
   #   end
   
   Myrottenpotatoes::Application.routes.draw do
-  resource :movies
+  resources :movies
   root :to => redirect('/movies')
 end
 
