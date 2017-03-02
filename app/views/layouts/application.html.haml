@@ -8,9 +8,9 @@
         
 %body
     #main
-        if flash[:notice]
+        - if flash[:notice]
         #notice.message= flash[:notice]
-        elseif flash[:warning]
+        - elseif flash[:warning]
         #warning.message = flash[:warning]
         
             = yield

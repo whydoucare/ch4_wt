@@ -35,7 +35,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # use Haml for templates
 gem 'haml'
 
-
+# Protected Attributes
+gem 'protected_attributes', '~> 1.1.3'
 
 
 group :development, :test do
